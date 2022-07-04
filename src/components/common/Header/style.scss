@@ -1,0 +1,49 @@
+.header {
+  width: 1296px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 50px;
+
+  .headerBody {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .headerLogo {
+      width: 60px;
+      height: 60px;
+    }
+
+    .headerButton {
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 18.2px;
+      color: #ffffff;
+      padding: 9px 15px;
+      background: #018abe;
+      border-radius: 3px;
+      border: none;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .headerLink {
+      display: flex;
+      gap: 50px;
+
+      .headerLinkItem {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18.9px;
+        color: #ffffff;
+
+        &:hover {
+          cursor: pointer;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
